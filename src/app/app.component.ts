@@ -20,7 +20,6 @@ export class AppComponent implements OnInit{
 
   ngOnInit() {
     this.container = document.getElementById('file-drop-div');
-    console.log(this.container);
   }
 
   public devNull(e) {
