@@ -1,4 +1,4 @@
-import {Component, HostListener, ElementRef, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 import {FileMigrationService} from "./file-migration.service";
 import {CsvExportService} from "./csv-export.service";
 
