@@ -1,0 +1,24 @@
+#file-drop-div {
+  padding: 100px 20px;
+  text-align: center;
+  outline: 2px dashed #88eab4;
+  margin: 5px auto;
+}
+
+#file-upload {
+  width: 0;
+  height: 0;
+}
+
+.error {
+  color: #ff0000;
+}
+
+#file-upload-label {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.hover {
+  background-color: #cbcbcb;
+}

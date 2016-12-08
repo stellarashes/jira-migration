@@ -1,0 +1,9 @@
+<div id="outer-container" class="container" role="main" (dragenter)="enter($event)" (dragover)="enter($event)" (dragleave)="leave($event)" (drop)="drop($event)">
+  <div class="row">
+    <div id="file-drop-div" [ngClass]="{hover: hover}">
+      <input type="file" id="file-upload" (change)="fileSelect($event)" />
+      <label for="file-upload" id="file-upload-label">Drag files here or choose a file</label>
+      <div class="error" *ngIf="error">{{ error }}</div>
+    </div>
+  </div>
+</div>
